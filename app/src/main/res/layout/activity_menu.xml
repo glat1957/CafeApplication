@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:text="@string/menuText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/menuTextView" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/menuList"
+        android:choiceMode="singleChoice"
+        android:listSelector="?attr/colorControlHighlight"
+        android:layout_height="446dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addToOrderButton"
+            android:layout_weight="1"
+            android:text="@string/addtoOrderBtn"
+            style="@style/Widget.AppCompat.Button"
+            android:onClick="addToOrder" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewOrderButton"
+            android:layout_weight="1"
+            android:onClick="viewOrder"
+            android:text="@string/viewOrderBtn"
+            style="@style/Widget.AppCompat.Button" />
+    </LinearLayout>
+
+</LinearLayout>

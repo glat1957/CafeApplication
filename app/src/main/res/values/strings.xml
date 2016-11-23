@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">La Dolce Caffè</string>
+    <string name="label_name">Customer Name</string>
+    <string name="label_phoneNum">Phone Number</string>
+    <string name="addtoOrderBtn">Add to Order</string>
+    <string name="viewOrderBtn">View Order</string>
+    <string name="testTextView">" "</string>
+    <string name="testText">" "</string>
+    <string name="menuText">Menu</string>
+    <string name="orderText">Order</string>
+</resources>
